@@ -1,0 +1,26 @@
+{
+  "name": "challenge-foodfy",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanmontt/foodfy.git"
+  },
+  "keywords": [],
+  "author": "Jean Monteiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeanmontt/foodfy/issues"
+  },
+  "homepage": "https://github.com/jeanmontt/foodfy#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  }
+}
