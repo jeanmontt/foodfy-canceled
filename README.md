@@ -61,7 +61,7 @@ Nesta etapa foi entregue o layout e assets para realizar a construção do front
 <img src="public/assets/foodfy2.gif" alt="Gif demonstrativo challenge 2 Foodfy">
 </h1>
 
-Nesta estapa foi solicitado a criação de um banco de dados para as informações das receitas e utilizá-lo para as páginas "home" e "receitas".
+Nesta etapa foi solicitado a criação de um banco de dados para as informações das receitas e utilizá-lo para as páginas "home" e "receitas".
 
 Foi solicitado também que ao clicar em uma receita o usuário deve ser redirecionado para uma nova página contendo todas informações da receita como ingredientes, modo de preparo e informações adicionais.
 
