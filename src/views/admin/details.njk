@@ -1,0 +1,22 @@
+{% extends "../layouts/admin.njk" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/styles/admin/main.css">
+    <link rel="stylesheet" href="/styles/shared/recipe.css">
+{% endblock head %}
+
+<div id="details">
+    {% block content %}
+        <section id="header">
+            <h1>Receita: {{recipe.title}}</h1>
+
+            <a href="#">Editar receita</a>
+        </section>
+        {% include "../shared/fields.njk" %}
+    {% endblock content %}
+</div>
+
+
+{% block scripts %}
+    <script src="/scripts/scripts.js"></script>
+{% endblock scripts %}

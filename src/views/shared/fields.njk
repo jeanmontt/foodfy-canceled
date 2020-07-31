@@ -1,15 +1,4 @@
-{% extends "layout.njk" %}
-
-{% block head %}
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="stylesheet" href="/styles/recipe.css">
-
-    <title>Foodfy - Receita
-        {{ recipe.title }}</title>
-{% endblock head %}
-
-{% block content %}
-    <section id="content">
+<section id="content">
         <div class="title_container">
             <img src="{{ recipe.image }}" alt="{{ recipe.title }}">
 
@@ -54,8 +43,3 @@
             <p class="text">{{ recipe.information }}</p>
         </div>
     </section>
-{% endblock content %}
-
-{% block scripts %}
-    <script src="/scripts/scripts.js"></script>
-{% endblock scripts %}

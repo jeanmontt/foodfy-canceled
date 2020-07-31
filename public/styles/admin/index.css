@@ -1,0 +1,65 @@
+.container {
+    max-width: 940px;
+
+    margin: 50px auto;
+}
+
+h1 {
+    color: var(--color-text);
+
+    font-size: 24px;
+    line-height: 28px;
+
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+}
+
+.card .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    height: 80px;
+
+    margin-right: 20px;
+
+    border-radius: 8.57px;
+}
+
+.card h2 {
+    color: var(--color-text);
+
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    margin-bottom: 5px;
+}
+
+.card p {
+    color: var(--color-textOpacity);
+
+    font-size: 14px;
+    line-height: 16px;
+
+    margin-bottom: 10px;
+}
+
+.card a {
+    color: var(--color-button);
+
+    font-size: 14px;
+    line-height: 16px;
+
+    text-decoration: none;
+}

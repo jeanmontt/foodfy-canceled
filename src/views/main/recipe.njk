@@ -1,0 +1,17 @@
+{% extends "../layouts/main.njk" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/styles/main/main.css">
+    <link rel="stylesheet" href="/styles/shared/recipe.css">
+
+    <title>Foodfy - Receita
+        {{ recipe.title }}</title>
+{% endblock head %}
+
+{% block content %}
+     {% include "../shared/fields.njk" %}
+{% endblock content %}
+
+{% block scripts %}
+    <script src="/scripts/scripts.js"></script>
+{% endblock scripts %}

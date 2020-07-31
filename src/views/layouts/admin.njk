@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/chef.png">
+
+    {% block head %}{% endblock head %}
+</head>
+
+<body>
+    <header>
+        <a class="image" href="/admin">
+            <img class="grow" src="/assets/logo-admin.png" alt="Logo Foodfy">
+        </a>
+    </header>
+
+    <main>
+        {% block content %}{% endblock content %}
+    </main>
+
+    {% block scripts %}{% endblock scripts %}
+</body>
+
+</html>
