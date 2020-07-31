@@ -1,0 +1,26 @@
+{% extends "../layouts/admin.njk" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/styles/admin/main.css">
+    <link rel="stylesheet" href="/styles/shared/create-edit.css">
+    <title>Criando Receita</title>
+{% endblock head %}
+
+{% block content %}
+    <form id="form-edit" method="POST" action="/admin/receitas?_method=PUT">
+        <section id="header">
+            <h1>Criando receita</h1>
+
+            <div class="buttons">
+                <button id="form-edit" form="form-edit" type="submit">Salvar receita</button>
+            </div>
+            <input type="hidden" name="id" value="{{recipe.id}}">
+        </section>
+
+        {% include "../shared/create-edit-fields.njk" %}
+    </form>
+{% endblock content %}
+
+{% block scripts %}
+    <script src="/scripts/addFunction.js"></script>
+{% endblock scripts %}

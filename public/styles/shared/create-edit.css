@@ -1,0 +1,138 @@
+#details .title_container {
+    margin-top: 0;
+}
+
+#header {
+    width: 940px;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 55px auto 0;
+}
+
+#header h1 {
+    color: var(--color-text);
+
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#header button#form-delete {
+    background-color: #DC4747;
+
+    color: white;
+
+    padding: 9px 20px;
+
+    border-radius: 4px;
+
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    box-shadow: 2px 2px 8px -2px black;
+
+    margin-right: 10px;
+}
+
+#header button#form-edit {
+    background-color: var(--color-button);
+
+    color: white;
+
+    padding: 9px 20px;
+
+    border-radius: 4px;
+
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    box-shadow: 2px 2px 8px -2px black;
+}
+
+#header button#form-delete:hover {
+    background-color: #dc4747d5;
+}
+
+#header button#form-edit:hover {
+    background-color: var(--color-button-houver);
+
+    transition: 300ms;
+}
+
+#container {
+    width: 940px;
+
+    margin: 25px auto 0;
+}
+
+#container h2 {
+    font-size: 16px;
+    line-height: 19px;
+
+    color: var(--color-text);
+
+    margin-bottom: 10px;
+}
+
+#container input,
+textarea {
+    width: 100%;
+
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+
+    outline: none;
+
+    font-size: 16px;
+    line-height: 19px;
+
+    color: var(--color-text);
+
+    padding: 15px 20px;
+
+    margin-bottom: 10px;
+}
+
+#container button {
+    background-color: white;
+    color: var(--color-button);
+
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+
+    text-decoration: none;
+    
+    cursor: pointer;
+
+    bottom: 10px;
+}
+
+#container button:hover {
+    color: var(--color-button-houver);
+
+    transition: 300ms;
+}
+
+#image,
+#title,
+#author,
+#ingredients,
+#preparations {
+    margin-bottom: 30px;
+}
+
+#information {
+    margin-bottom: 50px;
+}

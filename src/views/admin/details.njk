@@ -10,9 +10,9 @@
         <section id="header">
             <h1>Receita: {{recipe.title}}</h1>
 
-            <a href="#">Editar receita</a>
+            <a href="/admin/receitas/{{recipe.id}}/edit">Editar receita</a>
         </section>
-        {% include "../shared/fields.njk" %}
+        {% include "../shared/recipe-details-fields.njk" %}
     {% endblock content %}
 </div>
 

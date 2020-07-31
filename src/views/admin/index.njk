@@ -10,45 +10,17 @@
         <h1>Gerenciar receitas</h1>
 
         <div class="cards">
+            {% for recipe in recipes %}
             <div class="card">
-                <img src="/assets/burger.png" alt="">
+                <img src="{{recipe.image}}" alt="">
 
                 <div class="info">
-                    <h2>Triplo bacon burger</h2>
-                    <p>por Jorge Relato</p>
-                    <a href="#">Visualizar</a>
-                </div>  
+                    <h2>{{recipe.title}}</h2>
+                    <p>{{recipe.author}}</p>
+                    <a href="/admin/receitas/{{recipe.id}}">Visualizar</a>
+                </div>
             </div>
-
-            <div class="card">
-                <img src="/assets/burger.png" alt="">
-
-                <div class="info">
-                    <h2>Triplo bacon burger</h2>
-                    <p>por Jorge Relato</p>
-                    <a href="#">Visualizar</a>
-                </div>  
-            </div>
-
-            <div class="card">
-                <img src="/assets/burger.png" alt="">
-
-                <div class="info">
-                    <h2>Triplo bacon burger</h2>
-                    <p>por Jorge Relato</p>
-                    <a href="#">Visualizar</a>
-                </div>  
-            </div>
-
-            <div class="card">
-                <img src="/assets/burger.png" alt="">
-
-                <div class="info">
-                    <h2>Triplo bacon burger</h2>
-                    <p>por Jorge Relato</p>
-                    <a href="#">Visualizar</a>
-                </div>  
-            </div>
+            {% endfor %}
         </div>
     </div>
     

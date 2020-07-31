@@ -145,7 +145,7 @@ main li {
 }
 
 #header a:hover {
-    background-color: #6458c3e7;
+    background-color: var(--color-button-houver);
 
     transition: 300ms;
 }
